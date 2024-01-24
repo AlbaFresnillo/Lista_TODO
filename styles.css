@@ -1,0 +1,55 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(/1600w-6ulBHmgfEuQ.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#tasklist {
+    max-width: 400px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    margin-left: 20px;
+}
+
+#taskInput {
+    margin-left: 20px;
+}
+
+button {
+    cursor: pointer;
+    color: black;
+    
+}
+
+.delete-btn {
+    cursor: pointer;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid burlywood;
+
+}
+
+img {
+    display: block;
+
+}
+
